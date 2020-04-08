@@ -2,8 +2,8 @@ fun main(){
     // kotlin akan mendeteksi error nilai variabel text ketika compile
     // val text: String = null // compile errror
 
-    // untuk mengatasi nya, dengan menggunakan tanda tanda setelah tipe data
-    // ini memungkinkan untuk mendefinisikan variabel yang bisa diisi dengan nilai nul
+    // untuk mengatasi nya, dengan menggunakan tanda tanya setelah tipe data
+    // ini memungkinkan untuk mendefinisikan variabel yang bisa diisi dengan nilai null
     val text: String? = null
     
     if(text != null){
