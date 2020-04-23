@@ -74,5 +74,5 @@ fun main(){
     // map secara default imutable, apabila ingin memanipulasi data map, maka pastikan dulu datanya bersifat mutable
     val mutableCapital = capital.toMutableMap()
     mutableCapital.put("Amsterdam", "Netherlands")
-    println(mutableCapital)
+    println(mutableCapital.get("Amsterdam"))
 }
