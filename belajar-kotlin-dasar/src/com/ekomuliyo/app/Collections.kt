@@ -1,4 +1,4 @@
-package com.ekomuliyo
+package com.ekomuliyo.app
 
 fun main(){
 
@@ -57,11 +57,7 @@ fun main(){
     // Maps
     // Maps adalah sebuah collection dengan konsep key-value
 
-    val capital = mapOf(
-        "Jakarta" to "Indonesia",
-        "London" to "England",
-        "New Delhi" to "India"
-    )
+    val capital = mapOf("Jakarta" to "Indonesia", "London" to "England", "New Delhi" to "India")
     println(capital["London"])
     println(capital.getValue("Jakarta"))
 

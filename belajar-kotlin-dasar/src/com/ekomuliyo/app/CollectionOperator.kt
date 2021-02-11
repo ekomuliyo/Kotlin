@@ -1,4 +1,4 @@
-package com.ekomuliyo
+package com.ekomuliyo.app
 
 fun main(){
     // filter() untuk mencari data dari suatu array dengan kondisi di dalam lambda expresion

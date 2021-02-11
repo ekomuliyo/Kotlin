@@ -1,6 +1,6 @@
 package com.ekomuliyo.app
 
-infix fun String.to(type: String): String {
+infix fun String.to(type: String): Pair<Any, Any> {
     if(type == "UP") {
         return this.toUpperCase()
     } else {

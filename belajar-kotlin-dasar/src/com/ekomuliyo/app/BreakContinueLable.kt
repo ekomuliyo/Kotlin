@@ -1,4 +1,4 @@
-package com.ekomuliyo
+package com.ekomuliyo.app
 
 fun main(){
     // menggunakan label loop@ di awal untuk mendefinisikan label
